@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+   <control namespace="ABNLookup"
+      constructor="ABNLookupControl"
+      version="0.0.1"
+      display-name-key="ABNLookupControl"
+      description-key="ABNLookupControl description"
+      control-type="standard">
+      <property name="ABRid" display-name-key="ABR Guid" description-key="Guid Provided by ABN for WebAPI access" of-type="SingleLine.Text" usage="input" required="true" />
+      <property name="abnValue" display-name-key="ABN Field" description-key="Name of the Text Field that contains ABN" of-type="SingleLine.Text" usage="bound" required="true" />    
+      <resources>
+         <code path="index.ts"
+            order="1" />
+         <css path="css/ABNLookupPCF.css"
+            order="1" />
+      </resources>
+   </control>
+</manifest>

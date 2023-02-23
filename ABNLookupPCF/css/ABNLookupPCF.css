@@ -1,0 +1,15 @@
+.ABNLookup\.ABNLookupControl {   
+    text-align: left;
+ }
+ .ABNLookup\.ABNLookupControl input {   
+   width:80%;
+}
+ .ABNLookup\.ABNLookupControl button {   
+   background-color:#2d5297;
+   color:white;
+   border-radius: 8px;
+   border-color:transparent;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   font-size: 16pt;
+}
