@@ -6,8 +6,8 @@
       display-name-key="ABNLookupControl"
       description-key="ABNLookupControl description"
       control-type="standard">
-      <property name="ABRid" display-name-key="ABR Guid" description-key="Guid Provided by ABN for WebAPI access" of-type="SingleLine.Text" usage="input" required="true" />
       <property name="abnValue" display-name-key="ABN Field" description-key="Name of the Text Field that contains ABN" of-type="SingleLine.Text" usage="bound" required="true" />    
+      <property name="ABRid" display-name-key="ABR Guid" description-key="Guid Provided by ABN for WebAPI access" of-type="SingleLine.Text" usage="input" required="true" />
       <resources>
          <code path="index.ts"
             order="1" />

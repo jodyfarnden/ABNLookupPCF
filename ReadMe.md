@@ -4,6 +4,8 @@
 ## Overview
 This PCF control takes an Australian Business Number (ABN) from a text field and validates it with the Australian Business Services (ABR) ABN Lookup web services. It returns the most recent business name to display.
 
+![image](./PreviewScreenshot.png)
+
 ## Dependencies
 This project requires:
 - VS Code
